@@ -1,4 +1,4 @@
-# simplysocial
+# Wikimedia Flow
 
 Building Wikimedia's "Flow" prototype in AngularJS and LESS CSS for fun and practice.
 
