@@ -10,7 +10,7 @@ module.exports = /*@ngInject*/
     function init() {
       var d = $q.defer();
 
-      $http.get('/discussion.json')
+      $http.get('discussion.json')
         .then(function(response){
           return processTopics(response.data.topics);
         })
